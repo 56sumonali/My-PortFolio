@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding:0;font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.87);
+}
+body{
+    background-color: rgba(235, 225, 225, 0.863);
+}
+header .nameclass{
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    margin: 25px 20px;
+    font-size: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+header nav{
+    width: 50%;
+    align-content: center;
+}
+header nav ul{
+    float: right;
+    list-style: none;
+    display: flex;
+    margin-right: 23px;
+}
+header nav ul li{
+    padding:23px;
+}
+header nav ul a{
+    color: rgba(255, 255, 255, 0.815);
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+header nav ul a:hover{
+    color: rgba(214, 126, 25, 0.815);
+}
+#welcome{
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+    background-color: rgb(190, 181, 168);
+    justify-items: center;
+    align-content: center;
+    box-sizing: border-box;
+}
+#welcome h1{
+    font-family: 'Courier New', Courier,;
+    font-size: 50px;
+}
+#welcome p{
+    font-size: 24px;
+    padding:18px 0px;
+}
+#welcome button{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding:10px 44px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#Aboutme{
+    margin: 60px 18px;
+}
+#Aboutme h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+#Aboutme p{
+    font-size: 20px;
+}
+#Skils{
+    margin: 60px 18px;
+}
+#Skils h1{
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+#Skils ul{
+    display: flex;
+    list-style: none;
+}
+#Skils ul li{
+    margin-right: 25px;
+    font-size: 20px;
+}
+#project{
+     margin: 60px 18px;
+}
+#project h1 {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+#project .project{
+    width: 95%;
+    background-color: white;
+    border: 2px solid white;
+    padding:12px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 3px rgb(0,0,0,0.6);
+}
+#project .project p{
+    color: black;
+    font-weight: normal;
+    padding: 12px 0px;
+}
+#project .project h1{
+    color: black;
+}
+#project .project a{
+    padding-top:9px ;
+    padding-right: 12px;
+}
+#contact{
+    margin: 60px 18px;
+}
+#contact h1{
+    font-size: 40px;
+}
+#contact form{
+    width: 95%;
+}
+#contact form input{
+    display: block;
+    width: 100%;
+    padding:12px;
+    margin: 12px 7px;
+    border-radius: 4px;
+    font-size: 20px;
+    border: white;
+}
+#contact form input[type="button"]{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    background-color: black;
+    justify-items: center;
+    padding:30px 0px;
+}
+#emil{
+    color: white;
+}
+.dropdonw{
+    background-color: rgba(0, 0, 0, 0.548);
+    margin-top: 13px;
+    padding:15px;
+    box-shadow: 5px 2px 3px rgb(0,0,0,0.6);
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+}
+.dropdonw a{
+    display: block;
+    padding:5px 2px;
+}
+#drop:hover .dropdonw{
+    display: block;
+}
+.skills{
+    background-color: rgba(0, 0, 0, 0.548);
+    margin-top: 13px;
+    padding:8px;
+    box-shadow: 5px 2px 3px rgb(0,0,0,0.6);
+    border-radius: 5px;
+    position: absolute;
+    display: none;
+}
+.skills a{
+    display: block;
+    padding:8px 0px;
+}
+#skill:hover .skills{
+    display: block;
+}
+.project{
+    background-color: rgba(0, 0, 0, 0.548);
+    margin-top: 13px;
+    padding:8px;
+    box-shadow: 5px 2px 3px rgb(0,0,0,0.6);
+    border-radius: 5px;
+    position: absolute;
+    display: none;
+}
+.project a{
+    display: block;
+    padding:8px 0px;
+}
+#proje:hover .project{
+    display: block;
+}
